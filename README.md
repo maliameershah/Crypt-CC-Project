@@ -24,11 +24,17 @@ The language is a reversed/symbolic variant of C++, with unique keywords, operat
 **File Structure**
 .
 ├── documentation.pdf      # Project documentation
+
 ├── video.mp4              # Demo video
+
 ├── scanner.l              # Flex scanner source file
+
 ├── test.ali               # Sample test program (30+ lines)
+
 ├── tokens.txt             # Sample output of scanner
+
 ├── errors.log             # Sample error log (if any)
+
 └── README.docx            # This Word document
 
 ---
