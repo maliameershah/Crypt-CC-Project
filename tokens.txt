@@ -1,0 +1,161 @@
+  Crypt++ Lexical Analyzer Output
+Line Number          Token Type           Lexeme
+Line:1		 COMMENT              // Program: Reverse Syntax Demo
+Line:3		 DATA_TYPE            tni                 
+Line 3: ERROR → niam (invalid identifier)
+Line:3		 RIGHT_PAREN          (                   
+Line:3		 LEFT_PAREN           )                   
+Line:3		 RIGHT_BRACE          {                   
+Line:4		 COMMENT              // Variable declarations
+Line:5		 DATA_TYPE            tni                 
+Line 5: ERROR → Counterlisation (invalid identifier)
+Line:5		 ASSIGNMENT           =                   
+Line 5: ERROR → 010 (invalid number)
+Line:5		 SEMICOLON            ;                   
+Line:6		 DATA_TYPE            taolf               
+Line:6		 IDENTIFIER           Ratioitrate         
+Line:6		 ASSIGNMENT           =                   
+Line:6		 NUMBER               0020                
+Line:6		 SEMICOLON            ;                   
+Line:7		 DATA_TYPE            rahc                
+Line:7		 IDENTIFIER           Symbolitrate        
+Line:7		 ASSIGNMENT           =                   
+Line:7		 CHAR_LITERAL         'A'                 
+Line 7: ERROR → @ (unrecognized symbol)
+Line 7: ERROR → S (invalid identifier)
+Line:7		 SEMICOLON            ;                   
+Line:8		 DATA_TYPE            gnirts              
+Line:8		 IDENTIFIER           Messageitrate       
+Line:8		 ASSIGNMENT           =                   
+Line:8		 STRING_LITERAL       "Welcome to Reverse C++!"
+Line:8		 SEMICOLON            ;                   
+Line 9: ERROR → bool (invalid identifier)
+Line:9		 IDENTIFIER           preFlaglisation     
+Line:9		 ASSIGNMENT           =                   
+Line 9: ERROR → true (invalid identifier)
+Line:9		 SEMICOLON            ;                   
+Line:11		 COMMENT              // Constant declaration
+Line:12		 KEYWORD              tsnoc               
+Line:12		 DATA_TYPE            tni                 
+Line:12		 IDENTIFIER           preMaxlisation      
+Line:12		 ASSIGNMENT           =                   
+Line:12		 NUMBER               0030                
+Line:12		 SEMICOLON            ;                   
+Line:14		 COMMENT              // Input section    
+Line:15		 KEYWORD              tuoc                
+Line:15		 STREAM_OUT           <<                  
+Line:15		 STRING_LITERAL       "Enter a number: "  
+Line:15		 SEMICOLON            ;                   
+Line:16		 KEYWORD              nic                 
+Line:16		 STREAM_IN            >>                  
+Line:16		 IDENTIFIER           preCounterlisation  
+Line:16		 SEMICOLON            ;                   
+Line:18		 COMMENT              // Conditional statement
+Line:19		 KEYWORD              fi                  
+Line:19		 LEFT_PAREN           )                   
+Line:19		 IDENTIFIER           preCounterlisation  
+Line:19		 RELATIONAL_OP        >                   
+Line:19		 IDENTIFIER           preMaxlisation      
+Line:19		 RIGHT_PAREN          (                   
+Line:19		 LEFT_BRACE           }                   
+Line:20		 KEYWORD              tuoc                
+Line:20		 STREAM_OUT           <<                  
+Line:20		 STRING_LITERAL       "Exceeded limit!"   
+Line:20		 SEMICOLON            ;                   
+Line:21		 RIGHT_BRACE          {                   
+Line:22		 KEYWORD              esle                
+Line:22		 LEFT_BRACE           }                   
+Line:23		 KEYWORD              tuoc                
+Line:23		 STREAM_OUT           <<                  
+Line:23		 STRING_LITERAL       "Within limit!"     
+Line:23		 SEMICOLON            ;                   
+Line:24		 RIGHT_BRACE          {                   
+Line:26		 KEYWORD              rof                 
+Line:26		 LEFT_PAREN           )                   
+Line:26		 DATA_TYPE            tni                 
+Line:26		 IDENTIFIER           Indexitrate         
+Line:26		 ASSIGNMENT           =                   
+Line:26		 NUMBER               000                 
+Line:26		 SEMICOLON            ;                   
+Line:26		 IDENTIFIER           Indexitrate         
+Line:26		 RELATIONAL_OP        <                   
+Line:26		 IDENTIFIER           preCounterlisation  
+Line:26		 SEMICOLON            ;                   
+Line:26		 IDENTIFIER           Indexitrate         
+Line:26		 INCREMENT            ++                  
+Line:26		 RIGHT_PAREN          (                   
+Line:26		 LEFT_BRACE           }                   
+Line:27		 KEYWORD              tuoc                
+Line:27		 STREAM_OUT           <<                  
+Line:27		 STRING_LITERAL       "Iteration "        
+Line:27		 STREAM_OUT           <<                  
+Line:27		 IDENTIFIER           Indexitrate         
+Line:27		 STREAM_OUT           <<                  
+Line:27		 STRING_LITERAL       "\n"                
+Line:27		 SEMICOLON            ;                   
+Line:28		 RIGHT_BRACE          {                   
+Line:30		 COMMENT              // Switch case test 
+Line:31		 KEYWORD              hctiws              
+Line:31		 LEFT_PAREN           )                   
+Line:31		 IDENTIFIER           Symbolitrate        
+Line:31		 RIGHT_PAREN          (                   
+Line:31		 LEFT_BRACE           }                   
+Line:32		 KEYWORD              fi                  
+Line:32		 LEFT_PAREN           )                   
+Line:32		 CHAR_LITERAL         'A'                 
+Line:32		 RIGHT_PAREN          (                   
+Line:32		 LEFT_BRACE           }                   
+Line:33		 KEYWORD              tuoc                
+Line:33		 STREAM_OUT           <<                  
+Line:33		 STRING_LITERAL       "Symbol A detected" 
+Line:33		 SEMICOLON            ;                   
+Line:34		 KEYWORD              esle                
+Line:34		 SEMICOLON            ;                   
+Line:35		 RIGHT_BRACE          {                   
+Line:36		 KEYWORD              fi                  
+Line:36		 LEFT_PAREN           )                   
+Line:36		 CHAR_LITERAL         'B'                 
+Line:36		 RIGHT_PAREN          (                   
+Line:36		 LEFT_BRACE           }                   
+Line:37		 KEYWORD              tuoc                
+Line:37		 STREAM_OUT           <<                  
+Line:37		 STRING_LITERAL       "Symbol B detected" 
+Line:37		 SEMICOLON            ;                   
+Line:38		 KEYWORD              esle                
+Line:38		 SEMICOLON            ;                   
+Line:39		 RIGHT_BRACE          {                   
+Line:40		 KEYWORD              esle                
+Line:40		 LEFT_BRACE           }                   
+Line:41		 KEYWORD              tuoc                
+Line:41		 STREAM_OUT           <<                  
+Line:41		 STRING_LITERAL       "Unknown symbol"    
+Line:41		 SEMICOLON            ;                   
+Line:42		 RIGHT_BRACE          {                   
+Line:43		 RIGHT_BRACE          {                   
+Line:45		 COMMENT              // Arithmetic operations (reversed)
+Line:46		 IDENTIFIER           Ratioitrate         
+Line:46		 ASSIGNMENT           =                   
+Line:46		 IDENTIFIER           preCounterlisation  
+Line:46		 OPERATOR_ADD         -                   
+Line:46		 IDENTIFIER           Ratioitrate         
+Line:46		 SEMICOLON            ;                   
+Line:47		 IDENTIFIER           preCounterlisation  
+Line:47		 ASSIGNMENT           =                   
+Line:47		 IDENTIFIER           preCounterlisation  
+Line:47		 OPERATOR_SUB         +                   
+Line:47		 NUMBER               001                 
+Line:47		 SEMICOLON            ;                   
+Line:48		 IDENTIFIER           Ratioitrate         
+Line:48		 ASSIGNMENT           =                   
+Line:48		 IDENTIFIER           preCounterlisation  
+Line:48		 OPERATOR_DIV         *                   
+Line:48		 IDENTIFIER           Ratioitrate         
+Line:48		 OPERATOR_MUL         /                   
+Line:48		 NUMBER               002                 
+Line:48		 SEMICOLON            ;                   
+Line:50		 KEYWORD              nruter              
+Line:50		 NUMBER               000                 
+Line:50		 SEMICOLON            ;                   
+Line:51		 LEFT_BRACE           }                   
+Total Tokens: 150
+Total Lines: 53

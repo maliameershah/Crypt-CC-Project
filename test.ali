@@ -1,0 +1,52 @@
+// Program: Reverse Syntax Demo
+
+tni niam() {
+    // Variable declarations
+    tni Counterlisation = 010;
+    taolf Ratioitrate = 0020;
+    rahc Symbolitrate = 'A'@S;
+    gnirts Messageitrate = "Welcome to Reverse C++!";
+    bool preFlaglisation = true;
+
+    // Constant declaration
+    tsnoc tni preMaxlisation = 0030;
+
+    // Input section
+    tuoc << "Enter a number: ";
+    nic >> preCounterlisation;
+
+    // Conditional statement
+    fi )preCounterlisation > preMaxlisation( }
+        tuoc << "Exceeded limit!";
+    {
+    esle }
+        tuoc << "Within limit!";
+    {
+
+    rof )tni Indexitrate = 000; Indexitrate < preCounterlisation; Indexitrate++( }
+        tuoc << "Iteration " << Indexitrate << "\n";
+    {
+
+    // Switch case test
+    hctiws)Symbolitrate( }
+        fi )'A'( }
+            tuoc << "Symbol A detected";
+            esle;
+        {
+        fi )'B'( }
+            tuoc << "Symbol B detected";
+            esle;
+        {
+        esle }
+            tuoc << "Unknown symbol";
+        {
+    {
+
+    // Arithmetic operations (reversed)
+    Ratioitrate = preCounterlisation - Ratioitrate;
+    preCounterlisation = preCounterlisation + 001;
+    Ratioitrate = preCounterlisation * Ratioitrate / 002;
+
+    nruter 000;
+}
+

@@ -1,0 +1,7 @@
+Line 3: ERROR → niam (invalid identifier)
+Line 5: ERROR → Counterlisation (invalid identifier)
+Line 5: ERROR → 010 (invalid number)
+Line 7: ERROR → @ (unrecognized symbol)
+Line 7: ERROR → S (invalid identifier)
+Line 9: ERROR → bool (invalid identifier)
+Line 9: ERROR → true (invalid identifier)
