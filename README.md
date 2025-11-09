@@ -23,6 +23,7 @@ The language is a reversed/symbolic variant of C++, with unique keywords, operat
 
 **File Structure**
 .
+
 ├── documentation.pdf      # Project documentation
 
 ├── video.mp4              # Demo video
