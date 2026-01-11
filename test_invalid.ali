@@ -1,0 +1,45 @@
+// Program: Invalid Crypt++ Syntax - Error Testing
+// This program contains intentional syntax errors for Phase 2 testing
+
+tni niam() {
+    // ERROR 1: Missing semicolon after declaration
+    tni preCounterlisation = 0010
+    
+    // ERROR 2: Missing semicolon after assignment
+    taolf Ratioitrate = 0020
+    tuoc << "This will cause error";
+    
+    // Correct declaration
+    rahc Symbolitrate = 'A';
+    
+    // ERROR 3: Missing closing parenthesis in condition
+    fi )preCounterlisation > 0030 {
+        tuoc << "Error in condition";
+    }
+    
+    // ERROR 4: Missing opening brace
+    esle
+        tuoc << "Missing brace";
+    }
+    
+    // ERROR 5: Missing semicolon in output
+    tuoc << "Another error"
+    
+    // ERROR 6: Invalid identifier (doesn't follow pre...lisation or ...itrate pattern)
+    tni invalidName = 0040;
+    
+    // ERROR 7: Invalid number format (must start with 00)
+    tni Validitrate = 123;
+    
+    // Correct statement
+    tni Correctitrate = 0050;
+    
+    // ERROR 8: Missing closing brace in loop
+    rof )tni Indexitrate = 000; Indexitrate < 005; Indexitrate++( {
+        tuoc << "Loop body";
+    // Missing closing brace here
+    
+    // ERROR 9: Missing semicolon in return
+    nruter 000
+}
+// ERROR 10: Missing closing brace for main function
