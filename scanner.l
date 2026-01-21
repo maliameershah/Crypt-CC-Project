@@ -1,7 +1,7 @@
 %{
 #include <stdio.h>
 #include <string.h>
-#include "parser.tab.h"
+#include "y.tab.h"
 
 int line_number = 1;
 FILE *error_log = NULL;
