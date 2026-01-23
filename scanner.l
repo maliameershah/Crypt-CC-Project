@@ -22,7 +22,6 @@ NEWLINE     \n
 "elihw"         { return ELIHW; }
 "esle"          { return ESLE; }
 "nruter"        { return NRUTER; }
-"hctiws"        { return HCTIWS; }
 "tsnoc"         { return TSNOC; }
 "tuoc"          { return TUOC; }
 "nic"           { return NIC; }
@@ -52,12 +51,12 @@ NEWLINE     \n
 
 ";"             { return SEMICOLON; }
 ","             { return COMMA; }
-"("             { return RIGHT_PAREN; }
-")"             { return LEFT_PAREN; }
-"{"             { return RIGHT_BRACE; }
-"}"             { return LEFT_BRACE; }
-"["             { return RIGHT_BRACKET; }
-"]"             { return LEFT_BRACKET; }
+"("             { return LEFT_PAREN; }
+")"             { return RIGHT_PAREN; }
+"{"             { return LEFT_BRACE; }
+"}"             { return RIGHT_BRACE; }
+"["             { return LEFT_BRACKET; }
+"]"             { return RIGHT_BRACKET; }
 "."             { return DOT; }
 ":"             { return COLON; }
 

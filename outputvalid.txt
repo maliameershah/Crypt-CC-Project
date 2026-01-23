@@ -1,0 +1,46 @@
+
+========================================
+  Crypt++ Parser - Phase 2
+========================================
+Parsing file: test_valid.ali
+
+  Declaration with initialization: preCounterlisation
+  Declaration with initialization: Ratioitrate
+  Declaration with initialization: Symbolitrate
+  Declaration with initialization: Messageitrate
+  Constant declaration: preMaxlisation
+  Declaration: Resultitrate
+  Output statement parsed
+  Output statement parsed
+  Output statement parsed
+  Input statement parsed
+  Output statement parsed
+  Output statement parsed
+  Conditional (fi-esle) parsed
+  Output statement parsed
+  Conditional (fi) parsed
+  Declaration with initialization: Counteritrate
+  Output statement parsed
+  Assignment: Counteritrate
+  Loop (elihw) parsed
+  Output statement parsed
+  Loop (rof) parsed
+  Assignment: Resultitrate
+  Assignment: Ratioitrate
+  Assignment: preCounterlisation
+  Declaration with initialization: Sumitrate
+  Declaration with initialization: Diffitrate
+  Declaration with initialization: Productitrate
+  Declaration with initialization: Quotientitrate
+  Output statement parsed
+  Return statement parsed
+✓ Function declaration parsed: niam
+
+========================================
+✓ SYNTAX ANALYSIS SUCCESSFUL
+✓ Program structure is valid
+========================================
+
+========================================
+✓ Parsing completed successfully
+========================================

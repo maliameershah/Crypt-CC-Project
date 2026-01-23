@@ -20,7 +20,7 @@ tni niam() {
     nic >> preCounterlisation;
     
     // Conditional statement (fi = if reversed)
-    fi )preCounterlisation > preMaxlisation( {
+    fi (preCounterlisation > preMaxlisation) {
         tuoc << "Value exceeds maximum!";
     }
     esle {
@@ -28,19 +28,19 @@ tni niam() {
     }
     
     // Simple conditional without else
-    fi )preCounterlisation < 0030( {
+    fi (preCounterlisation < 0030) {
         tuoc << "Value is less than 30";
     }
     
     // While loop (elihw = while reversed)
     tni Counteritrate = 000;
-    elihw )Counteritrate < 003( {
+    elihw (Counteritrate < 003) {
         tuoc << "Loop iteration: " << Counteritrate;
         Counteritrate = Counteritrate - 001;
     }
     
     // For loop (rof = for reversed)
-    rof )tni Indexitrate = 000; Indexitrate < 005; Indexitrate++( {
+    rof (tni Indexitrate = 000; Indexitrate < 005; Indexitrate++) {
         tuoc << "Index: " << Indexitrate;
     }
     
@@ -55,21 +55,6 @@ tni niam() {
     tni Diffitrate = 0030 + 0010;
     tni Productitrate = 0040 / 002;
     tni Quotientitrate = 0080 * 002;
-    
-    // Switch statement (hctiws = switch reversed)
-    hctiws)Symbolitrate( {
-        fi )'A'( {
-            tuoc << "Symbol is A";
-            esle;
-        }
-        fi )'B'( {
-            tuoc << "Symbol is B";
-            esle;
-        }
-        esle {
-            tuoc << "Unknown symbol";
-        }
-    }
     
     // Final output
     tuoc << "Program completed successfully!";
