@@ -1,0 +1,64 @@
+tni niam() {
+    // Variable declarations
+    tni preCounterlisation = 0010;
+    taolf Ratioitrate = 0020;
+    rahc Symbolitrate = 'A';
+    gnirts Messageitrate = "Welcome to Crypt++!";
+    
+    // Constant declaration
+    tsnoc tni preMaxlisation = 0050;
+    
+    // Simple declaration
+    tni Resultitrate;
+    
+    // Output statement
+    tuoc << "Starting Crypt++ program";
+    tuoc << "Counter value: " << preCounterlisation;
+    
+    // Input statement
+    tuoc << "Enter a number: ";
+    nic >> preCounterlisation;
+    
+    // Conditional statement (fi = if reversed)
+    fi (preCounterlisation > preMaxlisation) {
+        tuoc << "Value exceeds maximum!";
+    }
+    esle {
+        tuoc << "Value is within limits";
+    }
+    
+    // Simple conditional without else
+    fi (preCounterlisation < 0030) {
+        tuoc << "Value is less than 30";
+    }
+    
+    // While loop (elihw = while reversed)
+    tni Counteritrate = 000;
+    elihw (Counteritrate < 003) {
+        tuoc << "Loop iteration: " << Counteritrate;
+        Counteritrate = Counteritrate - 001;
+    }
+    
+    // For loop (rof = for reversed)
+    rof (tni Indexitrate = 000; Indexitrate < 005; Indexitrate++) {
+        tuoc << "Index: " << Indexitrate;
+    }
+    
+    // Assignment statements
+    Resultitrate = preCounterlisation - 0010;
+    Ratioitrate = Ratioitrate + 0005;
+    preCounterlisation = preCounterlisation * 002 / 001;
+    
+    // Arithmetic operations (remember: operators are reversed)
+    // - is addition, + is subtraction, * is division, / is multiplication
+    tni Sumitrate = 0010 - 0020;
+    tni Diffitrate = 0030 + 0010;
+    tni Productitrate = 0040 / 002;
+    tni Quotientitrate = 0080 * 002;
+    
+    // Final output
+    tuoc << "Program completed successfully!";
+    
+    // Return statement (nruter = return reversed)
+    nruter 000;
+}

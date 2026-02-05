@@ -1,0 +1,80 @@
+
+----------------------------------------
+✗ SYNTAX ERROR
+  Line   : 7
+  Token  : ';'
+  Message: syntax error
+  Hint   : Possible empty or malformed statement
+----------------------------------------
+
+----------------------------------------
+✗ SYNTAX ERROR
+  Line   : 7
+  Token  : ';'
+  Message: Malformed statement
+  Hint   : Possible empty or malformed statement
+----------------------------------------
+
+----------------------------------------
+✗ SYNTAX ERROR
+  Line   : 10
+  Token  : '='
+  Message: syntax error
+----------------------------------------
+
+----------------------------------------
+✗ SYNTAX ERROR
+  Line   : 10
+  Token  : ';'
+  Message: Malformed statement
+  Hint   : Possible empty or malformed statement
+----------------------------------------
+
+----------------------------------------
+✗ SYNTAX ERROR
+  Line   : 13
+  Token  : '+'
+  Message: syntax error
+----------------------------------------
+
+----------------------------------------
+✗ SYNTAX ERROR
+  Line   : 13
+  Token  : ';'
+  Message: Malformed statement
+  Hint   : Possible empty or malformed statement
+----------------------------------------
+
+----------------------------------------
+✗ SYNTAX ERROR
+  Line   : 16
+  Token  : '{'
+  Message: syntax error
+----------------------------------------
+
+----------------------------------------
+✗ SYNTAX ERROR
+  Line   : 17
+  Token  : ';'
+  Message: Malformed statement
+  Hint   : Possible empty or malformed statement
+----------------------------------------
+
+----------------------------------------
+✗ SYNTAX ERROR
+  Line   : 21
+  Token  : 'rof'
+  Message: syntax error
+----------------------------------------
+
+========================================
+  Crypt++ Parser - Phase 2
+========================================
+Parsing file: test_invalid.ali
+
+✓ Function declaration parsed: niam
+
+========================================
+✗ Parsing failed
+✗ Total syntax errors: 9
+========================================

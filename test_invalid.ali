@@ -1,0 +1,31 @@
+// Program: Invalid Crypt++ Syntax - Test File
+// Focus: Expression errors, loop mistakes, and I/O misuse
+
+tni niam() {
+
+    // ERROR 1: Invalid initialization (missing expression)
+    tni prexlisation = ;
+
+    // ERROR 2: Assignment without identifier
+    = 10;
+
+    // ERROR 3: Malformed expression (operator without operand)
+    prexlisation = 5 + ;
+
+    // ERROR 4: Incorrect while condition (missing right parenthesis)
+    elihw (prexlisation < 0010 {
+        tuoc << "Looping...";
+    }
+
+    // ERROR 5: Broken for loop (missing semicolons)
+    rof (tni preilisation = 000 preilisation < 005 preilisation++) {
+        tuoc << preilisation;
+    }
+
+    // ERROR 6: Input without identifier
+    nic >> ;
+
+    // ERROR 7: Return without semicolon
+    nruter 001
+}
+
